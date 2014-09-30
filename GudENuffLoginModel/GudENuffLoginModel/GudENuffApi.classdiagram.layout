@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="GudENuffApi">
+  <logicalClassDesignerModelMoniker Id="f239daf5-a25e-499c-885a-c150eddfa28c" />
+  <nestedChildShapes>
+    <classShape Id="d6df22d8-21e7-4dd1-9b24-c60d7aa5c5f7" absoluteBounds="2.375, 0.5, 4, 1.2226562251647315" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="582edda6-a1bf-4271-9bcc-23580b1ade8a" LastKnownName="AccountController : ApiController" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="2ddccb5c-f4d1-4006-9aef-2bf8cd944d28" absoluteBounds="2.3899999999999997, 0.89000000000000012, 3.9699999999999998, 0.36132811258236563" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="a0603145-fbc6-4dfa-ac14-ee0be8cf67ae" absoluteBounds="2.3899999999999997, 1.2613281125823657, 3.9699999999999998, 0.36132811258236563" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3ea58204-cb9e-4d47-b7c0-082ebe45ed61" absoluteBounds="1.125, 2.625, 1.5, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="66df9a7e-66a6-4b11-8f12-b0853c335bf8" LastKnownName="AppUser" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="c4ee42d8-567e-4094-bdd9-bab2c4894ad6" absoluteBounds="1.14, 3.015, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="9dff2f89-a79a-493b-ab14-deec94940530" absoluteBounds="1.14, 3.2261718675494193, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="f239daf5-a25e-499c-885a-c150eddfa28c" name="GudENuffApi" linkedPackageId="fe9cd0c3-215e-4c4f-a21b-ea9c67eb914b" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="8379a35a-b6af-4e4b-922d-c51e9578a623">
+      <profileInstance Id="a11cb5a3-7aea-4d20-adbb-f48d5c79d055" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="6db062bf-2d1e-44f1-b441-27f6648560af">
+      <profileInstance Id="bbb7663b-8d3d-4d03-89cd-776110193a7b" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="582edda6-a1bf-4271-9bcc-23580b1ade8a" name="AccountController : ApiController" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <description>This is the Account Controller that manages the Creation of Accounts, the Loging in of Accounts, and the Change of Passwords.</description>
+        <elementDefinition Id="df455720-fd0d-495b-a8a6-8e767dc3acab" />
+        <ownedAttributesInternal>
+          <property Id="38cd0c15-3a1c-4c19-8aa2-b9b10f888c0f" name="context" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1230d359-a64c-45fb-b358-38c8995bd760" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="7a3e6c46-0ab3-44b9-9405-2db51ddbfe8c" LastKnownName="AppContext" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="cbe9f93f-9982-43c7-9df8-d345deee790b" name="Create" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="83354b02-4165-4c6c-aa11-ee220cc4d242" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="396979f0-bd79-47fa-8373-77d38236f893" name="CreateAccountViewModel model" direction="In" isUnique="false">
+                  <elementDefinition Id="e4626217-6b0f-4923-9a19-bf6dfbfd42b8" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ee0060b4-ad7e-4e36-91ae-60c4e2befa38" direction="Return">
+                  <elementDefinition Id="1409be06-3e62-4b98-ad55-ea1b842b86ca" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2979425d-54e4-4074-b697-82336d863cdc" LastKnownName="HttpStatusCode" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="2979425d-54e4-4074-b697-82336d863cdc" name="HttpStatusCode" isAbstract="false" isLeaf="false" cachedFullName="HttpStatusCode">
+        <elementDefinition Id="0bd17dda-5153-4480-9706-51aa10ad72e4" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="7a3e6c46-0ab3-44b9-9405-2db51ddbfe8c" name="AppContext" isAbstract="false" isLeaf="false" cachedFullName="GudENuffLoginModel::AppContext">
+        <elementDefinition Id="0808fa00-4608-4394-ae1f-e61df83a5cfe" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="66df9a7e-66a6-4b11-8f12-b0853c335bf8" name="AppUser" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="177296b2-0f09-4a95-8f5f-361c62e655d7" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="fe9cd0c3-215e-4c4f-a21b-ea9c67eb914b" name="GudENuffLoginModel">
+    <elementDefinition Id="8a9a6610-7990-459c-ab14-b53058356d54" />
+  </package>
+</logicalClassDesignerModel>
