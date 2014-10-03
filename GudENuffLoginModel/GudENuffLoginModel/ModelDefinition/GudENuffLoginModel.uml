@@ -16,110 +16,14 @@
         Id="532ea607-fb19-44b8-8502-3351b05452be"
         name="StandardProfileL3" />
     </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="5ad55e18-d90b-4a97-b70f-6e986cda886e">
+      <profileInstance
+        Id="9bf4ae6a-ec79-43bf-8901-3a23400bd2f6"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
   </profileInstances>
   <packagedElements>
-    <packageHasNamedElement>
-      <class
-        Id="177296b2-0f09-4a95-8f5f-361c62e655d7"
-        name="AppUser"
-        isAbstract="false"
-        isLeaf="false"
-        isActiveClass="false" />
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <class
-        Id="0808fa00-4608-4394-ae1f-e61df83a5cfe"
-        name="AppContext"
-        isAbstract="false"
-        isLeaf="false"
-        isActiveClass="false" />
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <class
-        Id="df455720-fd0d-495b-a8a6-8e767dc3acab"
-        name="AccountController : ApiController"
-        isAbstract="false"
-        isLeaf="false"
-        isActiveClass="false">
-        <description>This is the Account Controller that manages the Creation of Accounts, the Loging in of Accounts, and the Change of Passwords.</description>
-        <ownedAttributesInternal>
-          <property
-            Id="1230d359-a64c-45fb-b358-38c8995bd760"
-            name="context"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <type_NamedElement>
-              <classMoniker
-                Id="0808fa00-4608-4394-ae1f-e61df83a5cfe"
-                LastKnownName="AppContext"
-                LastKnownLocation="GudENuffLoginModel.uml" />
-            </type_NamedElement>
-          </property>
-        </ownedAttributesInternal>
-        <ownedOperationsInternal>
-          <operation
-            Id="83354b02-4165-4c6c-aa11-ee220cc4d242"
-            name="Create"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="e4626217-6b0f-4923-9a19-bf6dfbfd42b8"
-                  name="CreateAccountViewModel model"
-                  direction="In"
-                  isUnique="false" />
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="1409be06-3e62-4b98-ad55-ea1b842b86ca"
-                  direction="Return">
-                  <type_NamedElement>
-                    <undefinedTypeMoniker
-                      Id="0bd17dda-5153-4480-9706-51aa10ad72e4"
-                      LastKnownName="HttpStatusCode"
-                      LastKnownLocation="GudENuffLoginModel.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-        </ownedOperationsInternal>
-      </class>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <class
-        Id="0f09b86d-acf5-4ee1-85ca-e00d0d47aca4"
-        name="CreateAccountViewModel"
-        isAbstract="false"
-        isLeaf="false"
-        isActiveClass="false" />
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <class
-        Id="af6264dd-d4d8-42a9-824e-ed1fa2150d15"
-        name="LogInViewModel"
-        isAbstract="false"
-        isLeaf="false"
-        isActiveClass="false" />
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <class
-        Id="11ecd891-203a-4adb-98f6-2664318544d6"
-        name="ChangePasswordViewModel"
-        isAbstract="false"
-        isLeaf="false"
-        isActiveClass="false" />
-    </packageHasNamedElement>
     <packageHasNamedElement>
       <undefinedType
         Id="9a9bd83b-7a6f-44f1-a9b9-5f976db71da3"
@@ -134,6 +38,24 @@
       <undefinedType
         Id="0bd17dda-5153-4480-9706-51aa10ad72e4"
         name="HttpStatusCode" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="1ea6d3f4-df5d-4e6f-a724-4a43fa7477a6"
+        LastKnownName="GufENuffLogInApi"
+        LastKnownLocation="Package_1521.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="4a976be0-4d8d-4fa1-b55b-051d5ddaf49f"
+        LastKnownName="Microsoft"
+        LastKnownLocation="Package2_1521.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="345dfd44-166d-4c9e-9985-6a5ec633b9f5"
+        LastKnownName="System"
+        LastKnownLocation="Package5_1521.uml" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType

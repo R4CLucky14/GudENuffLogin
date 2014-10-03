@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="050f4be4-80f8-47b6-8bdd-cf24966f2cf1"
+  name="Http"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="d2ee104c-dca0-4f16-bd1c-6ce9a5a8cdc3"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Web.Http"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="b5341fc2-be3b-49bb-b387-ad2f31d344dc"
+        name="IHttpActionResult"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="4502443f-952d-4f68-985f-3bf3f413c5d8"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FSource%2FRepos%2FGudENuffLogin%2FGudENuffLoginModel%2Fpackages%2FMicrosoft.AspNet.WebApi.Core.5.1.2%2Flib%2Fnet45%2FSystem.Web.Http.dll Namespace%3DSystem.Web.Http Type%3DIHttpActionResult"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9ba03547-efb1-4b8f-862d-0cf3f9155f68"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="721454ee-d2d8-492e-98ef-c7cf9a35004b">
+                <propertyInstance
+                  Id="027b2a02-4192-4a70-9657-768b9e41a49e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b8312d7c-cffd-47e1-9c60-1ed78458f188">
+                <propertyInstance
+                  Id="8f45ebc8-c87d-46ba-bc44-6278d3b44c9a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f335bbc2-32d2-4788-b6c2-45a4170664c8">
+                <propertyInstance
+                  Id="68aec299-09ff-451c-89e3-b0d172972f17"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="772da217-7e8b-4209-8ead-8a53ec158a57">
+                <propertyInstance
+                  Id="a957ba20-db19-4818-bfaa-0aa7911be40f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e4e2185b-db25-4c09-9f66-9699cfefc40d"
+        name="ApiController"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ef73f5a6-91cd-4f8d-ad42-527ef5c195c3"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FSource%2FRepos%2FGudENuffLogin%2FGudENuffLoginModel%2Fpackages%2FMicrosoft.AspNet.WebApi.Core.5.1.2%2Flib%2Fnet45%2FSystem.Web.Http.dll Namespace%3DSystem.Web.Http Type%3DApiController"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="fe243397-c70e-4f35-a4c1-601bf531de74"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bf8a38cb-c905-4b1a-98ba-cc9da5fe3815">
+                <propertyInstance
+                  Id="6dc74e8c-0c2e-4c87-b090-c275808dd46e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="954f8d72-2c29-47f3-844f-e9c027895ce5">
+                <propertyInstance
+                  Id="d336f80e-0e26-48bc-b409-3f14450e3a64"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="615ea346-cf9d-41ee-9a7d-877203411a91">
+                <propertyInstance
+                  Id="aca0eff4-7328-4657-a8fc-a013ba3e1cf3"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1e22e386-6f91-45dc-8529-602605836f88">
+                <propertyInstance
+                  Id="006eb6dc-98d3-4ba5-887c-f5568e37c697"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="31a24e60-2e38-4bd0-a8cc-4c782edab54d">
+                <propertyInstance
+                  Id="281c768e-80b8-48a3-9cde-f5e45cf9fc5a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

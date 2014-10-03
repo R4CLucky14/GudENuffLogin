@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="d7de8391-6db4-45fa-b434-4c5e7a24adee"
+  name="Models"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="f8952fb3-192e-4495-8b29-1280264af650"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DGufENuffLogInApi.Models"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="47be6723-e566-487e-9de2-aed253babd07"
+        name="ApplicationUser"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2f917b81-6446-48ce-b3b7-fd2056fd92e4"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FSource%2FRepos%2FGudENuffLogin%2FGudENuffLoginModel%2FGufENuffLogInApi%2Fbin%2FGufENuffLogInApi.dll Namespace%3DGufENuffLogInApi.Models Type%3DApplicationUser"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="29929f6a-b7dd-47bb-8a35-551560a9d018"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1b26d85e-c358-4866-bff5-6b023856e57b">
+                <propertyInstance
+                  Id="82bfe94a-4109-4e22-92c7-2bd51e33480e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b53dae2b-de5d-4815-9e2a-5920c2ed7c02">
+                <propertyInstance
+                  Id="8ce295af-af51-4d4a-bbb9-68bc3c8c5091"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4969d5c1-af1a-4efb-bb54-272b04e5bce6">
+                <propertyInstance
+                  Id="fbc49f62-d8f3-4851-8678-3cb3cb47c0ce"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="79309f64-2643-4221-ae66-d996b58a3fb9">
+                <propertyInstance
+                  Id="d16b9940-8b59-46ea-9777-d6a96cd1e4f7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="86ff97f1-f24b-4a6e-bae8-3140b48a6f07">
+                <propertyInstance
+                  Id="5e479316-eefb-46a1-b1bb-703ae18500c4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="29bc6453-e2aa-4344-87e0-9c02d1fcd4ce"
+            isSubstitutable="false">
+            <classMoniker
+              Id="60460af0-6b05-459b-9cdf-4b4f12935092"
+              LastKnownName="IdentityUser"
+              LastKnownLocation="Package4_1524.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="da4b5ee8-1e3d-4599-bbdd-b178b685720d"
+            name="ApplicationUser"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5de98af4-4362-446a-ba5b-3f903ea1e968"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FSource%2FRepos%2FGudENuffLogin%2FGudENuffLoginModel%2FGufENuffLogInApi%2Fbin%2FGufENuffLogInApi.dll Namespace%3DGufENuffLogInApi.Models Type%3DApplicationUser Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FSource%2FRepos%2FGudENuffLogin%2FGudENuffLoginModel%2FGufENuffLogInApi%2Fbin%2FGufENuffLogInApi.dll Namespace%3DGufENuffLogInApi.ViewModels Type%3DCreateAccountViewModel)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f5006b45-42a7-4782-9cc3-831800e5185d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa44267d-89e0-42b4-b64d-393882c687bc">
+                    <propertyInstance
+                      Id="1fe4559a-9939-4854-b269-988e7c26c2ca"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="440bc15a-76aa-4c61-8f00-804e5e2df4cd">
+                    <propertyInstance
+                      Id="35eb69e3-5fb9-423a-88e2-b2af3967ca33"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67a52db7-ae7c-4347-9028-8fd2883be98c">
+                    <propertyInstance
+                      Id="229cf49b-32ce-4295-810b-cffa38fe7be0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd136532-686b-45bb-a308-e1f94b71f899">
+                    <propertyInstance
+                      Id="25acf5b4-30a0-4aa3-a879-49768bc6ada3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5672b645-4d4b-4a9f-8fa9-fda44dd9953d">
+                    <propertyInstance
+                      Id="9a0f4d21-ec34-4020-981d-d79def59ced1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8fcbf3a5-0a79-4d64-a3f5-8ee3378e1475">
+                    <propertyInstance
+                      Id="6df4aa7c-f35e-49f1-b699-039f19577824"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8b5acd72-d7fe-4239-a035-395ac020f828"
+                  name="model"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b735714b-8132-4425-a02c-7d1455f57708"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FSource%2FRepos%2FGudENuffLogin%2FGudENuffLoginModel%2FGufENuffLogInApi%2Fbin%2FGufENuffLogInApi.dll Namespace%3DGufENuffLogInApi.Models Type%3DApplicationUser Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FSource%2FRepos%2FGudENuffLogin%2FGudENuffLoginModel%2FGufENuffLogInApi%2Fbin%2FGufENuffLogInApi.dll Namespace%3DGufENuffLogInApi.ViewModels Type%3DCreateAccountViewModel)]) ParameterIdentifier%3Dmodel"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="70b4e6ff-8cbd-4ae9-a11a-de9a3a77f0d4"
+                      LastKnownName="CreateAccountViewModel"
+                      LastKnownLocation="Package10_1521.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a5a88bec-8e4d-423d-a57c-d4a00595ba0a"
+            name="GenerateUserIdentityAsync"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fd9b55e4-3c47-42d8-b554-1ddb62fe58fa"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FSource%2FRepos%2FGudENuffLogin%2FGudENuffLoginModel%2FGufENuffLogInApi%2Fbin%2FGufENuffLogInApi.dll Namespace%3DGufENuffLogInApi.Models Type%3DApplicationUser Member%3D(Name%3DGenerateUserIdentityAsync OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FSource%2FRepos%2FGudENuffLogin%2FGudENuffLoginModel%2Fpackages%2FMicrosoft.AspNet.Identity.Core.2.0.0%2Flib%2Fnet45%2FMicrosoft.AspNet.Identity.Core.dll Namespace%3DMicrosoft.AspNet.Identity Type%3D(Name%3DUserManager GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FSource%2FRepos%2FGudENuffLogin%2FGudENuffLoginModel%2FGufENuffLogInApi%2Fbin%2FGufENuffLogInApi.dll Namespace%3DGufENuffLogInApi.Models Type%3DApplicationUser)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d729e058-6cc6-4c17-8f1a-ab902b0dff89"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6eb6540-b6d2-4fe8-b738-4fff06f895f4">
+                    <propertyInstance
+                      Id="502d923b-e643-4e99-b287-aac6c8ef3673"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3859fd6f-c9f0-4ea4-b93f-e0b54f6135a7">
+                    <propertyInstance
+                      Id="f403a4b8-8cb1-414d-b18c-9e1b85fe1136"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8060bbc-631d-4940-b9ef-838b90d4762a">
+                    <propertyInstance
+                      Id="216fbc73-1c4f-43a0-ab28-f50b5e260ab8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cfda239f-9b15-4360-8db1-b11d0eddc43a">
+                    <propertyInstance
+                      Id="4b97484d-61f1-43bd-8e95-48b9c5a6198c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26234678-f29a-4a54-9a63-bf9143ebbaec">
+                    <propertyInstance
+                      Id="d9b1a3aa-76e3-4004-bee8-dc78b1eab6d7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98f80760-0637-49ac-bbb0-b8105cbc0318">
+                    <propertyInstance
+                      Id="d02925cf-4dea-4891-843b-45ba0de630d1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7a076607-e060-41aa-b500-1c296f062e6b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="63b1c7f9-aa0b-4be1-9ca7-e10b0cf157bc"
+                      LastKnownName="Task&lt;ClaimsIdentity‎&gt;"
+                      LastKnownLocation="Package7_1521.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bc68d13c-8462-4227-b12d-f24c4127378e"
+                  name="manager"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1b4258cc-4300-4e99-acf1-2c70acf9829d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FSource%2FRepos%2FGudENuffLogin%2FGudENuffLoginModel%2FGufENuffLogInApi%2Fbin%2FGufENuffLogInApi.dll Namespace%3DGufENuffLogInApi.Models Type%3DApplicationUser Member%3D(Name%3DGenerateUserIdentityAsync OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FSource%2FRepos%2FGudENuffLogin%2FGudENuffLoginModel%2Fpackages%2FMicrosoft.AspNet.Identity.Core.2.0.0%2Flib%2Fnet45%2FMicrosoft.AspNet.Identity.Core.dll Namespace%3DMicrosoft.AspNet.Identity Type%3D(Name%3DUserManager GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FSource%2FRepos%2FGudENuffLogin%2FGudENuffLoginModel%2FGufENuffLogInApi%2Fbin%2FGufENuffLogInApi.dll Namespace%3DGufENuffLogInApi.Models Type%3DApplicationUser)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dmanager"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9837e2f3-983c-4340-a74d-4b08f5db1245"
+                      LastKnownName="UserManager&lt;ApplicationUser‎&gt;"
+                      LastKnownLocation="Package3_1524.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="285997c9-ec8a-4c6f-8092-fbefc5ace2c6"
+                  name="authenticationType"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="89a661ff-f027-4b5b-b0af-a41010a8b5d0"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FSource%2FRepos%2FGudENuffLogin%2FGudENuffLoginModel%2FGufENuffLogInApi%2Fbin%2FGufENuffLogInApi.dll Namespace%3DGufENuffLogInApi.Models Type%3DApplicationUser Member%3D(Name%3DGenerateUserIdentityAsync OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FSource%2FRepos%2FGudENuffLogin%2FGudENuffLoginModel%2Fpackages%2FMicrosoft.AspNet.Identity.Core.2.0.0%2Flib%2Fnet45%2FMicrosoft.AspNet.Identity.Core.dll Namespace%3DMicrosoft.AspNet.Identity Type%3D(Name%3DUserManager GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FSource%2FRepos%2FGudENuffLogin%2FGudENuffLoginModel%2FGufENuffLogInApi%2Fbin%2FGufENuffLogInApi.dll Namespace%3DGufENuffLogInApi.Models Type%3DApplicationUser)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DauthenticationType"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="GudENuffLoginModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="8b2cd1b3-180c-453f-b394-28f690f66608"
+            name="ApplicationUser"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c7405ae6-acda-43b6-8357-381358ae258c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FSource%2FRepos%2FGudENuffLogin%2FGudENuffLoginModel%2FGufENuffLogInApi%2Fbin%2FGufENuffLogInApi.dll Namespace%3DGufENuffLogInApi.Models Type%3DApplicationUser Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="84afbd5a-d0f3-4c9e-a2cd-97aeda569bf7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ba40f60-6cc8-476d-bdb2-52a0095d3c7c">
+                    <propertyInstance
+                      Id="9fb6034a-0084-495d-86d2-5fa950a227ba"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09398d05-fe30-4f77-8dc9-8ad30f7dc8fa">
+                    <propertyInstance
+                      Id="2795352a-65b0-4e8d-8c32-d4e21c2def0a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aee80517-aeab-4f5f-808b-5afa926de278">
+                    <propertyInstance
+                      Id="c5663ad3-74da-42c3-9db7-98bd6344a3b2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65cf09b2-ca5f-4d6e-b867-f6d0774f50c4">
+                    <propertyInstance
+                      Id="539a91b9-62bf-4322-9c3b-9ce8aa29b528"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21f01b4e-0a6a-4a38-a287-cc9d12579825">
+                    <propertyInstance
+                      Id="a09d500e-b1ac-4196-bb3b-36ae6e7bc265"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d2295736-78ac-492b-86b5-586b862133b0">
+                    <propertyInstance
+                      Id="9a813089-6473-44a2-a950-199fa2da26b9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="acf3b9bb-5f27-454e-870e-abc1a90109cd"
+        name="ApplicationContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="be0c5c59-b70d-41a7-a19e-4dc747ae6f89"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FSource%2FRepos%2FGudENuffLogin%2FGudENuffLoginModel%2FGufENuffLogInApi%2Fbin%2FGufENuffLogInApi.dll Namespace%3DGufENuffLogInApi.Models Type%3DApplicationContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6386e6b1-9fde-4001-acd9-a0e2b5cd1088"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="21ef8e3b-ab0c-48e5-a351-ef5923401963">
+                <propertyInstance
+                  Id="2ef5599b-2dbf-4bcf-85dd-7ebfb9edcd75"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ce2daef0-f747-41d4-a82d-0891129547b9">
+                <propertyInstance
+                  Id="d51a03d6-6892-4b43-9705-8ca0611d0b76"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0e4323ed-0691-40d9-a91e-1895c6a95d4d">
+                <propertyInstance
+                  Id="4ba4bac7-cbaa-49ce-9a05-bd8854f35f09"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f5ae3f2a-d1ab-4c74-b6d9-87eb7fa274fc">
+                <propertyInstance
+                  Id="6a2fa3a6-b4a6-475f-b734-41727119f557"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2b57b757-b941-4125-9148-98a76cd794e3">
+                <propertyInstance
+                  Id="eaecd9ce-fd08-4e39-aec8-a58b67c79ce0"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="73f641d8-ab4c-4bae-8616-316e7c00e9d4"
+            isSubstitutable="false">
+            <classMoniker
+              Id="dcf1efcd-d74a-43e6-8a4c-1e1a9fa03935"
+              LastKnownName="IdentityDbContext&lt;ApplicationUser‎&gt;"
+              LastKnownLocation="Package4_1524.uml" />
+          </generalization>
+          <generalization
+            Id="a847136e-ff2b-4bbf-8c8f-698b22ae1138"
+            isSubstitutable="false">
+            <classMoniker
+              Id="2af48516-f003-4efb-aa80-0ecfc7787248"
+              LastKnownName="IdentityDbContext"
+              LastKnownLocation="Package4_1524.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="7cb933a7-0a04-4e67-b07f-b0fd02ed3a62"
+            name="ApplicationContext"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8eb423a1-30ef-460b-bd82-2d7fa940ac94"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FSource%2FRepos%2FGudENuffLogin%2FGudENuffLoginModel%2FGufENuffLogInApi%2Fbin%2FGufENuffLogInApi.dll Namespace%3DGufENuffLogInApi.Models Type%3DApplicationContext Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="463e9eb8-afac-4bbc-b3b3-b2d1e06e1a7b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5d1444c-0ed4-4b18-b44c-78f028cd8ea2">
+                    <propertyInstance
+                      Id="7afe48f6-c4ff-4b75-aa1e-6a13f3bbb269"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ab47914-bf27-4064-975f-bd6688f68781">
+                    <propertyInstance
+                      Id="4fd9d53e-7876-4d1b-887c-2b81386b7d76"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7c3c1be0-5474-4499-a51a-1335313498f8">
+                    <propertyInstance
+                      Id="ae8c8004-df34-4382-b780-82cbe3f1e974"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f528ae31-bb83-4cea-8636-b27821a4e7ae">
+                    <propertyInstance
+                      Id="b6bbcc9e-ad72-4a80-8b9d-71390df7cf0e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5a8b6c07-73cc-4e5f-ba5a-dd687f37469b">
+                    <propertyInstance
+                      Id="6b0ef4b6-4040-4e3d-ba92-a1c86e043d10"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="49a19719-66c8-4d63-bc5c-663ec67e72e9">
+                    <propertyInstance
+                      Id="ade6c67d-14e9-4e2a-b298-e793386701f6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="23152aa2-857f-47a5-ab97-381719d7a9ab"
+            name="Create"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ba5427e0-e6f8-47ac-a1ea-5d1ae47c1133"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FSource%2FRepos%2FGudENuffLogin%2FGudENuffLoginModel%2FGufENuffLogInApi%2Fbin%2FGufENuffLogInApi.dll Namespace%3DGufENuffLogInApi.Models Type%3DApplicationContext Member%3DCreate"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c2870377-c7e7-4431-9218-4788ff4b52cd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab4d91c3-030f-4ce2-8cfe-c9414e25e62d">
+                    <propertyInstance
+                      Id="b3eb6834-54ba-4aac-9a3a-da36b671a0a3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2d69ffc-b662-4cad-91f6-eed07b9a9081">
+                    <propertyInstance
+                      Id="4d3c3bd0-a538-4ce6-bcd7-6b548bd35d56"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="585e6b22-b98f-4c81-946a-e680d84c5a17">
+                    <propertyInstance
+                      Id="90df43c3-c2c1-4033-a375-f43059204b0c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98eea16d-e292-4f7f-b57d-035157419488">
+                    <propertyInstance
+                      Id="92a1efaa-034d-4523-a42a-0194b2898a94"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="037633a0-aa00-4244-b609-bca5f1ce0416">
+                    <propertyInstance
+                      Id="31a5c7a2-b067-487a-8393-e482d248f76c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0bf7c931-da9f-4781-816a-e457d6b1551c">
+                    <propertyInstance
+                      Id="c421adb6-4ae8-455d-979e-16325725e2c9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="77c50b95-7ecf-495d-887d-f69aa5738827"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="acf3b9bb-5f27-454e-870e-abc1a90109cd"
+                      LastKnownName="ApplicationContext"
+                      LastKnownLocation="Package11_1521.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

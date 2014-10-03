@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="1ea6d3f4-df5d-4e6f-a724-4a43fa7477a6"
+  name="GufENuffLogInApi"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="637d17cf-8e93-4661-b64f-6fb277e4dc35"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DGufENuffLogInApi"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e82bc1de-322c-41a6-b61d-22958d1855da"
+        LastKnownName="Controllers"
+        LastKnownLocation="Package1_1521.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="71fded61-25da-4cf5-8061-ef0c204c3007"
+        name="ApplicationUserManager"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="cfc79197-f65d-4d10-9c00-d07392c6354b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FSource%2FRepos%2FGudENuffLogin%2FGudENuffLoginModel%2FGufENuffLogInApi%2Fbin%2FGufENuffLogInApi.dll Namespace%3DGufENuffLogInApi Type%3DApplicationUserManager"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="903d73d4-21b3-4894-a049-55ba06c04408"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ca4789e1-a89d-453f-880c-dd40f65d841b">
+                <propertyInstance
+                  Id="a281f2b4-0d24-42b6-9ac8-aab2f8f36f1f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="02473594-6f63-4c38-bdd2-686658499748">
+                <propertyInstance
+                  Id="71af0f99-9f83-443e-b9fc-ce0e14acb200"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3b688a86-5313-44b1-a117-08733f76da90">
+                <propertyInstance
+                  Id="d1d513b5-c806-4835-8cf1-3d29eaec2be8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fb4191ef-05c5-442f-84a0-eaa998842213">
+                <propertyInstance
+                  Id="6f2e9f3b-eb41-40a0-a269-82cccba1e0a2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a78e4f5e-008e-488f-a482-2655396623e4">
+                <propertyInstance
+                  Id="c5afd13b-0418-4995-a0e8-e3c06b511efe"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="a7215f5c-7b97-4887-a42b-52899bec0a3b"
+            isSubstitutable="false">
+            <classMoniker
+              Id="9837e2f3-983c-4340-a74d-4b08f5db1245"
+              LastKnownName="UserManager&lt;ApplicationUser‎&gt;"
+              LastKnownLocation="Package3_1524.uml" />
+          </generalization>
+          <generalization
+            Id="9a77aa07-71b6-41bf-9083-7cfe52ccc6d7"
+            isSubstitutable="false">
+            <classMoniker
+              Id="af11399e-fd98-459d-9562-9613187dbd54"
+              LastKnownName="UserManager"
+              LastKnownLocation="Package3_1524.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="733dd7db-bc52-4f49-9c0b-6b79a9d8a678"
+        LastKnownName="ViewModels"
+        LastKnownLocation="Package10_1521.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="d7de8391-6db4-45fa-b434-4c5e7a24adee"
+        LastKnownName="Models"
+        LastKnownLocation="Package11_1521.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="cb598fe7-dd94-42c1-8739-5d03be240f57"
+        LastKnownName="DataAnnotations"
+        LastKnownLocation="Package_1522.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="55712fe1-640a-4edf-926f-3c904d9cd4c6"
+        LastKnownName="Extensions"
+        LastKnownLocation="Package3_1522.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

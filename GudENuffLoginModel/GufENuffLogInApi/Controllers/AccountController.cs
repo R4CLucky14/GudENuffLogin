@@ -124,6 +124,7 @@ namespace GufENuffLogInApi.Controllers
 				return BadRequest( "Incomplete User Information" );
 			}
 		}
+
 		[Route( "Change" )]
 		[HttpPost]
 		[Authorize]
