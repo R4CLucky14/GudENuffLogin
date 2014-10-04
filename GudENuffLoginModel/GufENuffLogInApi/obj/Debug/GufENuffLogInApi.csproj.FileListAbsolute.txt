@@ -63,9 +63,8 @@ c:\users\james\documents\visual studio 2013\Projects\GudENuffLoginModel\GufENuff
 C:\Users\James\documents\visual studio 2013\Projects\GudENuffLoginModel\GufENuffLogInApi\obj\Debug\GufENuffLogInApi.csprojResolveAssemblyReference.cache
 C:\Users\James\documents\visual studio 2013\Projects\GudENuffLoginModel\GufENuffLogInApi\obj\Debug\GufENuffLogInApi.Migrations._0.resources
 C:\Users\James\documents\visual studio 2013\Projects\GudENuffLoginModel\GufENuffLogInApi\obj\Debug\GufENuffLogInApi.csproj.GenerateResource.Cache
-C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\GufENuffLogInApi.dll.config
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\GufENuffLogInApi.dll
-C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\GufENuffLogInApi.pdb
+C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\GufENuffLogInApi.dll.config
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\Antlr3.Runtime.dll
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\EntityFramework.dll
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\EntityFramework.SqlServer.dll
@@ -100,13 +99,14 @@ C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bi
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\System.Net.Http.Formatting.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\System.Web.Helpers.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\System.Web.Http.xml
+C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\System.Web.Http.Owin.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\System.Web.Http.WebHost.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\System.Web.Mvc.xml
-C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\System.Web.Optimization.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\System.Web.Razor.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\System.Web.WebPages.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\System.Web.WebPages.Deployment.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\System.Web.Optimization.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\Antlr3.Runtime.pdb
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\EntityFramework.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\EntityFramework.SqlServer.xml
@@ -122,9 +122,9 @@ C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bi
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\System.Web.Http.Owin.xml
-C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\obj\Debug\GufENuffLogInApi.csprojResolveAssemblyReference.cache
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\obj\Debug\GufENuffLogInApi.Migrations._0.resources
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\obj\Debug\GufENuffLogInApi.csproj.GenerateResource.Cache
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\obj\Debug\GufENuffLogInApi.dll
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\obj\Debug\GufENuffLogInApi.pdb
+C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\GufENuffLogInApi.pdb
+C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\bin\XmlDocument.xml

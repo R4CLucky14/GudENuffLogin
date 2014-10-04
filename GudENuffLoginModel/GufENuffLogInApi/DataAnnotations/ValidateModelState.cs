@@ -8,8 +8,17 @@ using System.Web.Http.Filters;
 
 namespace GufENuffLogInApi.DataAnnotations
 {
+	/// <summary>
+	/// Password Attribute checks if the field is a properly formatted string.
+	/// </summary>
+	[AttributeUsage(AttributeTargets.Field|AttributeTargets.Property)]
 	public class PasswordAttribute : ValidationAttribute
 	{
+		/// <summary>
+		/// Checks to see if the Password is a properly formatted string.
+		/// </summary>
+		/// <param name="value">The String</param>
+		/// <returns>Returns true if the String has digits, letters, capital letters, and accepted symbols, with not illegal characters.</returns>
 		public override bool IsValid( object value )
 		{
 			var input = value.ToString();
@@ -24,6 +33,12 @@ namespace GufENuffLogInApi.DataAnnotations
 				return false;
 			}
 		}
+		/// <summary>
+		/// Checks to see if the Password is a properly formatted string.
+		/// </summary>
+		/// <param name="value">The String</param>
+		/// <param name="validationContext">The Validation Context</param>
+		/// <returns>Returns a Successful Validation Result if the String has digits, letters, capital letters, and accepted symbols, with not illegal characters.</returns>
 		protected override ValidationResult IsValid( object value, ValidationContext validationContext )
 		{
 			var input = value.ToString();

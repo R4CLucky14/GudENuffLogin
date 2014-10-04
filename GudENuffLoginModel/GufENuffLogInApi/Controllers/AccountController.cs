@@ -25,6 +25,9 @@ using GufENuffLogInApi.DataAnnotations;
 
 namespace GufENuffLogInApi.Controllers
 {
+	/// <summary>
+	/// Allows the creation, deletion, and modifying of User Accounts, along with logging in.
+	/// </summary>
     [RoutePrefix("api/Account")]
     public class AccountController : ApiController
     {
@@ -42,6 +45,9 @@ namespace GufENuffLogInApi.Controllers
             AccessTokenFormat = accessTokenFormat;
         }
 
+		/// <summary>
+		/// Returns the User Manager
+		/// </summary>
         public ApplicationUserManager UserManager
         {
             get
@@ -53,6 +59,9 @@ namespace GufENuffLogInApi.Controllers
                 _userManager = value;
             }
         }
+		/// <summary>
+		/// Returns the Context's Authenitcation Manager.
+		/// </summary>
 		public IAuthenticationManager AuthenticationManager
 		{
 			get
@@ -63,7 +72,11 @@ namespace GufENuffLogInApi.Controllers
 
         public ISecureDataFormat<AuthenticationTicket> AccessTokenFormat { get; private set; }
 
-
+		/// <summary>
+		/// Logs a user in using External Bearer Token.
+		/// </summary>
+		/// <param name="model">A View Model containing information to log a user in.</param>
+		/// <returns>Returns an Ok statement if successfully authenticated. Otherwise, it will return Unauthorized if the combination was bad, and a Bad Request if the View Model data was improperly formatted.</returns>
 		[Route( "Login" )]
 		[HttpPost]
 		public async Task<IHttpActionResult> Login( LogInViewModel model )
@@ -88,7 +101,12 @@ namespace GufENuffLogInApi.Controllers
 				return BadRequest("Incomplete User Information");
 			}
 		}
-
+		
+		/// <summary>
+		/// Creates a new User Account. 
+		/// </summary>
+		/// <param name="model">A ViewModel containing information to create a user account.</param>
+		/// <returns>Returns an Ok statement if the account was created and logged in. Returns a Bad Request if the </returns>
 		[Route( "Create" )]
 		[HttpPost]
 		public async Task<IHttpActionResult> Create( CreateAccountViewModel model )

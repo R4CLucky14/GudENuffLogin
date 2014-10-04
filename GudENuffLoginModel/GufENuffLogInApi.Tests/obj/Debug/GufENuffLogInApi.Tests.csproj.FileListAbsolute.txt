@@ -50,6 +50,7 @@ c:\users\james\documents\visual studio 2013\Projects\GudENuffLoginModel\GufENuff
 c:\users\james\documents\visual studio 2013\Projects\GudENuffLoginModel\GufENuffLogInApi.Tests\obj\Debug\GufENuffLogInApi.Tests.pdb
 C:\Users\James\documents\visual studio 2013\Projects\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
 C:\Users\James\documents\visual studio 2013\Projects\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\obj\Debug\GufENuffLogInApi.Tests.csprojResolveAssemblyReference.cache
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\GufENuffLogInApi.Tests.dll.config
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\GufENuffLogInApi.Tests.dll
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\GufENuffLogInApi.Tests.pdb
@@ -78,16 +79,16 @@ C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Te
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\System.Web.Http.Owin.dll
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\GufENuffLogInApi.pdb
-C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\Newtonsoft.Json.xml
-C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\System.Web.Helpers.xml
-C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\System.Web.Http.xml
-C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\System.Web.Http.WebHost.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\System.Web.Mvc.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\System.Web.Razor.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\System.Web.WebPages.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\System.Web.Http.WebHost.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\EntityFramework.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
@@ -99,6 +100,5 @@ C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Te
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\System.Web.Http.Owin.xml
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\obj\Debug\GufENuffLogInApi.Tests.csprojResolveAssemblyReference.cache
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\obj\Debug\GufENuffLogInApi.Tests.dll
 C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi.Tests\obj\Debug\GufENuffLogInApi.Tests.pdb
