@@ -44,7 +44,7 @@ namespace GufENuffLogInApi.DataAnnotations
 			var input = value.ToString();
 			//The password must have digits, letters – at least one of which must be a capital, and symbols.  The allowable symbols are !, &, *,?.  
 
-			if ( input.HasDigits() && input.HasLetters() && input.HasCapital() && input.HasSymbols() )
+			if ( input.HasDigits() && input.HasLetters() && input.HasCapital() && input.HasSymbols() && !input.HasIllegalCharacters() )
 			{
 				return ValidationResult.Success;
 			}
