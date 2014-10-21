@@ -486,6 +486,12 @@
             Allows the creation, deletion, and modifying of User Accounts, along with logging in.
             </summary>
         </member>
+        <member name="M:GufENuffLogInApi.Controllers.AccountController.Status">
+            <summary>
+            Returns an Ok result - used to ensure the API Connection is working
+            </summary>
+            <returns>Ok result</returns>
+        </member>
         <member name="M:GufENuffLogInApi.Controllers.AccountController.Login(GufENuffLogInApi.ViewModels.LogInViewModel)">
             <summary>
             Logs a user in using External Bearer Token.
