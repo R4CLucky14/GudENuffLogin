@@ -13,10 +13,10 @@ namespace GufENuffLogInApi.ViewModels
 	public class ChangePasswordViewModel
 	{
 		/// <summary>
-		/// The User Name / Email of the User Account
+		/// The Email of the User Account
 		/// </summary>
 		[Required]
-		public String Username { get; set; }
+		public String Email { get; set; }
 		/// <summary>
 		/// The Current / Old Password of the User Account
 		/// </summary>

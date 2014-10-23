@@ -222,6 +222,7 @@
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\ChangePasswordViewModel.cs" />
     <Compile Include="ViewModels\CreateAccountViewModel.cs" />
+    <Compile Include="ViewModels\DeleteAccountViewModel.cs" />
     <Compile Include="ViewModels\LogInViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -253,6 +254,7 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <None Include="Properties\PublishProfiles\CustomTest.pubxml" />
     <None Include="Properties\PublishProfiles\SmarterASP.NEt.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />

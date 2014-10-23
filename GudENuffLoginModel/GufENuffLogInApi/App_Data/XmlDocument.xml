@@ -500,6 +500,20 @@
             <param name="model">A ViewModel containing information to create a user account.</param>
             <returns>Returns an Ok statement if the account was created and logged in. Returns a Bad Request if the </returns>
         </member>
+        <member name="M:GufENuffLogInApi.Controllers.AccountController.Change(GufENuffLogInApi.ViewModels.ChangePasswordViewModel)">
+            <summary>
+            Allows the modification of a password.
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GufENuffLogInApi.Controllers.AccountController.Delete(GufENuffLogInApi.ViewModels.DeleteAccountViewModel)">
+            <summary>
+            Allows the user to delete his/her account.
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
         <member name="P:GufENuffLogInApi.Controllers.AccountController.UserManager">
             <summary>
             Returns the User Manager
@@ -605,9 +619,9 @@
             A View Model for changing passwords.
             </summary>
         </member>
-        <member name="P:GufENuffLogInApi.ViewModels.ChangePasswordViewModel.Username">
+        <member name="P:GufENuffLogInApi.ViewModels.ChangePasswordViewModel.Email">
             <summary>
-            The User Name / Email of the User Account
+            The Email of the User Account
             </summary>
         </member>
         <member name="P:GufENuffLogInApi.ViewModels.ChangePasswordViewModel.OldPassword">

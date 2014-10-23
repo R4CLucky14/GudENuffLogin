@@ -12,8 +12,6 @@ Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "GufENuffLogInApi.Installer"
 		{A893A92D-57BD-4E52-A88D-0F6D7029255E} = {A893A92D-57BD-4E52-A88D-0F6D7029255E}
 	EndProjectSection
 EndProject
-Project("{BE0A4C86-FC82-4F70-8ED6-D24C8B13E7BF}") = "GufENuffLogInFront", "GufENuffLogInFront\GufENuffLogInFront.javaproj", "{8B2DBABE-4661-4EB1-BC6A-9917CF86C253}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,16 +52,6 @@ Global
 		{94305206-3F54-4F62-BB89-674C25C049DE}.Release|Mixed Platforms.Build.0 = Release|x86
 		{94305206-3F54-4F62-BB89-674C25C049DE}.Release|x86.ActiveCfg = Release|x86
 		{94305206-3F54-4F62-BB89-674C25C049DE}.Release|x86.Build.0 = Release|x86
-		{8B2DBABE-4661-4EB1-BC6A-9917CF86C253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8B2DBABE-4661-4EB1-BC6A-9917CF86C253}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8B2DBABE-4661-4EB1-BC6A-9917CF86C253}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{8B2DBABE-4661-4EB1-BC6A-9917CF86C253}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{8B2DBABE-4661-4EB1-BC6A-9917CF86C253}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{8B2DBABE-4661-4EB1-BC6A-9917CF86C253}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8B2DBABE-4661-4EB1-BC6A-9917CF86C253}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8B2DBABE-4661-4EB1-BC6A-9917CF86C253}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{8B2DBABE-4661-4EB1-BC6A-9917CF86C253}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{8B2DBABE-4661-4EB1-BC6A-9917CF86C253}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -33,16 +33,19 @@ namespace GufENuffLogInApi.Controllers
     {
         private const string LocalLoginProvider = "Local";
         private ApplicationUserManager _userManager;
+		private ApplicationContext db;
 
         public AccountController()
         {
+			ApplicationContext db = new ApplicationContext();
         }
 
         public AccountController(ApplicationUserManager userManager,
-            ISecureDataFormat<AuthenticationTicket> accessTokenFormat)
+            ISecureDataFormat<AuthenticationTicket> accessTokenFormat, ApplicationContext db)
         {
             UserManager = userManager;
-            AccessTokenFormat = accessTokenFormat;
+			AccessTokenFormat = accessTokenFormat;
+			this.db = db;
         }
 
 		/// <summary>
@@ -143,14 +146,19 @@ namespace GufENuffLogInApi.Controllers
 			}
 		}
 
+		/// <summary>
+		/// Allows the modification of a password.
+		/// </summary>
+		/// <param name="model"></param>
+		/// <returns></returns>
 		[Route( "Change" )]
 		[HttpPost]
-		[Authorize]
+		//[Authorize]
 		public async Task<IHttpActionResult> Change( ChangePasswordViewModel model )
 		{
 			if ( ModelState.IsValid )
 			{
-				var user = await UserManager.FindAsync( model.Username, model.OldPassword );
+				var user = await UserManager.FindAsync( model.Email, model.OldPassword );
 
 				if ( user != null )
 				{
@@ -175,8 +183,40 @@ namespace GufENuffLogInApi.Controllers
 			{
 				return BadRequest("Incomplete User Information");
 			}
-
 		}
+
+		/// <summary>
+		/// Allows the user to delete his/her account.
+		/// </summary>
+		/// <param name="model"></param>
+		/// <returns></returns>
+		[Route( "Change" )]
+		[HttpPost]
+		public async Task<IHttpActionResult> Delete ( DeleteAccountViewModel model )
+		{
+			if ( ModelState.IsValid )
+			{
+				var user = await UserManager.Users.FirstOrDefaultAsync( c => c.UserName == model.Email );
+
+				if ( user != null )
+				{
+					//User Exists - Delete User
+					db.Users.Remove( user );
+					return Ok();
+				}
+				else
+				{
+					//User does not exist.
+					return BadRequest( "User does not exist" );				
+				}
+			}
+			else
+			{
+				//Improper model provided
+				return BadRequest( "Incomplete User Information" );
+			}
+		}
+
         protected override void Dispose(bool disposing)
         {
             if (disposing)

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GufENuffLogInApi.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -18,6 +19,11 @@ namespace GufENuffLogInApi
 			FilterConfig.RegisterGlobalFilters( GlobalFilters.Filters );
 			RouteConfig.RegisterRoutes( RouteTable.Routes );
 			BundleConfig.RegisterBundles( BundleTable.Bundles );
+
+			ApplicationContext db = new ApplicationContext();
+
+			db.Database.Initialize( false );
+
 		}
 	}
 }
