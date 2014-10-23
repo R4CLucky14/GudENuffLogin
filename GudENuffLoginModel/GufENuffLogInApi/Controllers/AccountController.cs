@@ -76,6 +76,16 @@ namespace GufENuffLogInApi.Controllers
         public ISecureDataFormat<AuthenticationTicket> AccessTokenFormat { get; private set; }
 
 		/// <summary>
+		/// Returns an Ok result - used to ensure the API Connection is working
+		/// </summary>
+		/// <returns>Ok result</returns>
+		[HttpGet]
+		public IHttpActionResult Status()
+		{
+			return Ok();
+		}
+
+		/// <summary>
 		/// Logs a user in using External Bearer Token.
 		/// </summary>
 		/// <param name="model">A View Model containing information to log a user in.</param>

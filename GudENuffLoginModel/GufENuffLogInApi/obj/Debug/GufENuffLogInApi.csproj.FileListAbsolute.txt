@@ -193,3 +193,5 @@ C:\Users\James\Source\Repos\GudENuffLogin2\GudENuffLoginModel\GufENuffLogInApi\o
 C:\Users\James\Source\Repos\GudENuffLogin2\GudENuffLoginModel\GufENuffLogInApi\obj\Debug\GufENuffLogInApi.csproj.GenerateResource.Cache
 C:\Users\James\Source\Repos\GudENuffLogin2\GudENuffLoginModel\GufENuffLogInApi\obj\Debug\GufENuffLogInApi.dll
 C:\Users\James\Source\Repos\GudENuffLogin2\GudENuffLoginModel\GufENuffLogInApi\obj\Debug\GufENuffLogInApi.pdb
+C:\Users\James\Source\Repos\GudENuffLogin2\GudENuffLoginModel\GufENuffLogInApi\obj\Debug\GufENuffLogInApi.csprojResolveAssemblyReference.cache
+C:\Users\James\Source\Repos\GudENuffLogin\GudENuffLoginModel\GufENuffLogInApi\obj\Debug\GufENuffLogInApi.csprojResolveAssemblyReference.cache
