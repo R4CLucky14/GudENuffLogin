@@ -20,6 +20,7 @@ import org.apache.http.client.methods.RequestBuilder;
 import org.apache.http.entity.ContentType;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.apache.http.util.EntityUtils;
 
 public class Connection
 {
@@ -91,6 +92,8 @@ public class Connection
 	        {
 	            result.StatusCode = response.getStatusLine().getStatusCode();
 	            result.StatusMessage = response.getStatusLine().getReasonPhrase();
+                HttpEntity entity = response.getEntity();
+	            result.BodyMessage = entity != null ? EntityUtils.toString(entity) : null;
 	        }
 	        finally
 	        {

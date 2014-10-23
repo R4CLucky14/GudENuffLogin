@@ -8,7 +8,7 @@ public class Program
 	{
 		System.out.println("Creating Connection");
 		
-		Connection connection = new Connection();
+		Connection connection = new Connection("http://r4clucky14-001-site8.smarterasp.net/api/Account/");
 		
 		System.out.println("Connection Created");
 		System.out.println("Attempt Handshaking");
@@ -25,7 +25,7 @@ public class Program
 			System.out.println("Handshaking Failed!!!");
 		}
 		
-		result = connection.Create(new CreateViewModel("james0308@outlook.com", "BADPASS", "BADPASS"));
+		result = connection.Create(new CreateViewModel("james0308@outlook.com", "BADpass1*", "BADpass1*"));
 		
 		if(result.Success())
 		{
